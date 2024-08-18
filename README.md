@@ -6,11 +6,11 @@ A library of bash functions to make scripting easier
 
 ### Variables
 
-**BASH_LIBS**
+- **BASH_LIBS**
 
 Provides the path to the library folder (defaults to `/opt/bash-lib`)
 
-**self** *(array)*
+- **self** *(array)*
 
 0: Full path to the script
 
@@ -20,15 +20,15 @@ Provides the path to the library folder (defaults to `/opt/bash-lib`)
 
 ### Functions
 
-**stdPath()**
+- **stdPath()**
 
 Check if a command exists in a folder contained in `PATH`.
 
-**stdPager()**
+- **stdPager()**
 
 Find and run an installed pager. Checks for the `bat(1)`, and `cat(1)` utilities.
 
-**stdLog()**
+- **stdLog()**
 
 Write a log message of type (`debug`, `error`, `info`, `warn`) with a message to stdout.
 
@@ -37,21 +37,21 @@ Write a log message of type (`debug`, `error`, `info`, `warn`) with a message to
 
 ### Variables
 
-**KEYCODE_NAME** *(array)*
+- **KEYCODE_NAME** *(array)*
 
 Contains names for each keycode.
 
-**KEYCODE_HEX** *(array)*
+- **KEYCODE_HEX** *(array)*
 
 Contains the hex code for each keycode.
 
 ### Functions
 
-**readKey()**
+- **readKey()**
 
 Reads a keypress and converts to hex code.
 
-**parseKey()**
+- **parseKey()**
 
 Converts a hex code to key name.
 
