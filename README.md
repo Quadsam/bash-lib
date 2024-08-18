@@ -5,7 +5,6 @@ A library of bash functions to make scripting easier
 **Contents**
 - [stdlib.sh](## stdLib)
 - [keyparser.sh](## Keyparser)
-- [io.sh](## IO) (DEPRECIATED)
 - [tests](## Tests)
 
 
@@ -44,12 +43,6 @@ Contains the hex code for each keycode.
 Reads a keypress and converts to hex code.
 - `parseKey()`
 Converts a hex code to key name.
-
-
-## IO
----
-
-**Depreciated:** *Use `stdlib.sh` `stdPager()` and `stdLog()` instead*
 
 
 ## Tests
