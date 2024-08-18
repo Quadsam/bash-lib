@@ -5,7 +5,7 @@
 ################################################################################
 ## Written by Quadsam <https://www.quadsam.com/bash>
 ##
-## std.sh - A bash(1) standard library
+## stdlib.sh - A bash(1) standard library
 ##
 ## THIS FILE MUST BE SOURCED
 ################################################################################
