@@ -15,9 +15,9 @@ BASH_LIBS='/opt/bash-lib'
 
 # Array of script file path information
 self=(
-      "$(realpath "$0")"                # [0]: Full Path
-      "$(dirname "$(realpath "$0")")"   # [1]: Containing Directory
-      "$(basename "$(realpath "$0")")"  # [2]: Script Name
+	"$(realpath "$0")"                # [0]: Full Path
+	"$(dirname "$(realpath "$0")")"   # [1]: Containing Directory
+	"$(basename "$(realpath "$0")")"  # [2]: Script Name
 )
 
 ## Usage: stdPath <command>
@@ -82,11 +82,11 @@ function stdPager()
 		fi
 	done
 	# Run pager and check for errors
-    if ! eval "${pagerCMD[*]}"; then
+	if ! eval "${pagerCMD[*]}"; then
 		printf 'ERROR(std.sh:stdPager:%s): Pager encountered an error\n' "${pagerCMD[0]}"
 		return 2
-    fi
-    return 0
+	fi
+	return 0
 }
 
 
