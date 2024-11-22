@@ -13,11 +13,18 @@
 # Folder contaning bash libraries
 BASH_LIBS='/opt/bash-lib'
 
-# Array of script file path information
+# DEPRICIATED: Array of script file path information
 self=(
 	"$(realpath "$0")"                # [0]: Full Path
 	"$(dirname "$(realpath "$0")")"   # [1]: Containing Directory
 	"$(basename "$(realpath "$0")")"  # [2]: Script Name
+)
+
+# Array of script file path information
+declare -A _SELF=(
+	['PATH']="$(realpath "$0")"
+	['DIR']="$(dirname "$(realpath "$0")")"
+	['NAME']="$(basename "$(realpath "$0")")"
 )
 
 ## Usage: stdPath <command>
