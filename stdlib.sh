@@ -5,9 +5,9 @@
 ################################################################################
 ## Written by Quadsam <https://www.quadsam.com/bash>
 ##
-## stdlib.sh - A bash(1) standard library
+## stdlib.sh - A bash(1) library for scripting
 ##
-## THIS FILE MUST BE SOURCED
+## !!THIS SCRIPT MUST BE SOURCED!!
 ################################################################################
 
 # Folder contaning bash libraries
