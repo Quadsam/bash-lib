@@ -3,7 +3,7 @@
 #shellcheck disable=SC2119  # Most functions don't require arguments (handeled by function if it does)
 
 ################################################################################
-## Written by Quadsam <https://www.quadsam.com/bash>
+## Written by Quadsam <https://github.com/Quadsam>
 ##
 ## stdlib.sh - A bash(1) library for scripting
 ##
@@ -12,13 +12,6 @@
 
 # Folder contaning bash libraries
 BASH_LIBS='/opt/bash-lib'
-
-# DEPRICIATED: Array of script file path information
-self=(
-	"$(realpath "$0")"                # [0]: Full Path
-	"$(dirname "$(realpath "$0")")"   # [1]: Containing Directory
-	"$(basename "$(realpath "$0")")"  # [2]: Script Name
-)
 
 # Array of script file path information
 declare -A _SELF=(

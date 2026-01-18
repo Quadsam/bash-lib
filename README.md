@@ -1,7 +1,5 @@
 # Bash Library
 
-**!!Depriciation!!**: The `self` array has been depriciated and will be removed in a future release.
-
 A library of bash functions to make scripting easier
 
 ## stdLib
@@ -16,11 +14,6 @@ Provides the path to the library folder (defaults to `/opt/bash-lib`)
 	- `PATH`: Full path to the script
 	- `DIR`: The directory where the script is stored
 	- `NAME`: The name of the script
-
-- **(DEPRECIATED) self** *(array)*
-	- 0: Full path to the script **(Replaced by `${_SELF[PATH]}`)**
-	- 1: The directory where the script is stored **(Replaced by `${_SELF[DIR]}`)**
-	- 2: The name of the script **(Replaced by `${_SELF[NAME]}`)**
 
 ### Functions
 
