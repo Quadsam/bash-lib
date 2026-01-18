@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #shellcheck disable=SC2119
 
-source "/usr/local/lib/bash/stdlib.sh"
+source "../stdlib.sh"
 
 function checkError
 {

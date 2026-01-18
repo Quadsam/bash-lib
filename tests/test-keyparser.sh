@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source '/opt/bash-lib/stdlib.sh'
+source '../stdlib.sh'
 
 while getopts ':h' OPT; do
 	case $OPT in
